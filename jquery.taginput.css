@@ -1,0 +1,56 @@
+.tag_input {
+    border: 1px solid #b9c1ca;
+    border-radius: 3px;
+}
+
+.tag_input .wrap {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tag_input .wrap input {
+    border: none !important;
+}
+
+.tag_input .tokens {
+    display: inline-block;
+}
+
+.tag_input .tokens .token {
+    display: inline-block;
+    margin-right: 0.25em;
+    padding: 0 0.5em 0;
+}
+
+.tag_input .tokens .token.label {
+    color: #ffffff;
+    background-color: #007ac2;
+    white-space: nowrap;
+    border-radius: 3px;
+}
+
+.tag_input .tokens .token.label.draggable {
+    opacity: 0.8;
+}
+
+.tag_input .tokens .token .tag {
+    margin-right: 0.5em;
+}
+
+.tag_input .tokens .token .tag:before {
+    position:relative;
+    top: 1px;
+    padding-right: 0.2em;
+    content: "•";
+}
+
+.tag_input .tokens .token .close {
+    font-size: 1em;
+    font-weight: bold;
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.tag_input .tokens .token .close:hover {
+    opacity: 0.4;
+}
